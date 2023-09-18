@@ -1,7 +1,9 @@
 # Documentation
 <p><strong>Overall Objective and Specific Objectives:</strong></p>
 
-<p>The overarching goal of the project is to transform an outdated accounting system, known as 'Comercial Pro,' into a modern and adaptable software solution utilizing SQL for efficient data management. This transformation is intended to meet the specific needs of a company referred to as DN, specializing in souvenir sales to various businesses. Additionally, an extension will be developed to facilitate the oversight of daily orders by laboratories within DN.</p>
+<p>The general objective of the project is to carry out the implementation of an agile administrative program to replace an outdated administrative system, which is adaptable to the company's needs. The program will utilize SQL to efficiently manage the company's data, featuring an HTML interface that can utilize Java commands for better database management. The project aims to meet an administrative need of the DN company, which is seeking an agile way to enhance its production processes.
+
+The program aims to use a web-based platform that allows the utilization of the tools provided by the old system but with a more user-friendly interface, eliminating the need to purchase new equipment and licenses. This is intended to enable laboratories to notify the administrative department once the products are ready for delivery.</p>
 
 <p>The specific objectives of the project are as follows:</p>
 
