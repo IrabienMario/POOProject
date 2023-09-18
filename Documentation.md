@@ -37,3 +37,21 @@ The program aims to use a web-based platform that allows the utilization of the 
 
   <li><strong>Establish efficient communication between the program and the user interface:</strong> Enable effective communication between the software program and the user interface to ensure that user actions are accurately reflected in the system, resulting in a responsive and user-friendly experience.</li>
 </ol>
+
+## Limitations:
+
+<p>There are several limitations to consider in the context of this project:</p>
+
+<ol>
+  <li>
+    <p><strong>Academic Nature of the Project:</strong> This project is primarily academic in nature. As a result, the initial focus is on functionality. The emphasis is on learning and gaining practical experience, which may not reach the same level of complexity or scale as a commercial project. Additionally, certain aspects such as security or scalability may not be addressed as extensively during this academic phase.</p>
+  </li>
+  
+  <li>
+    <p><strong>Interaction between Interface and Central Database:</strong> The project's initial phase centers around the interaction between the program's interface and the central database. While this is essential for functionality, it may mean that other critical aspects of a real-world project, such as data security and real-time data synchronization, may not be fully explored during this phase.</p>
+  </li>
+
+  <li>
+    <p><strong>Creation of a Database Copy:</strong> To facilitate software development for the academic project, a copy of the database is being created on a separate computer from the main server. While this practice is common in academic and development settings, it may not be feasible in a production environment due to security and data synchronization considerations.</p>
+  </li>
+</ol>
