@@ -1,5 +1,5 @@
 # Development Plan.
-<h1>Objectives.
+<h1>Objectives.</h1>
 Our main objective is to create a website that can be accessed by any company or individual to record orders and production.
 
 ##Resources.
