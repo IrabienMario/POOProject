@@ -23,6 +23,24 @@ The significance of this project is that the problem we are solving is a real ne
 
 Also, the level of this project would help us in the future to demostrate to the companys how the experencied we have gaind (most related to coding in Java, HTML, SQL, and the process of the development) is used in this deployment. Being able to reach to a level that we could sell this possibility of resolution to the DN company.
 
+## Limitations:
+
+<p>There are several limitations to consider in the context of this project:</p>
+
+<ol>
+  <li>
+    <p><strong>Academic Nature of the Project:</strong> This project is primarily academic in nature. As a result, the initial focus is on functionality. The emphasis is on learning and gaining practical experience, which may not reach the same level of complexity or scale as a commercial project. Additionally, certain aspects such as security or scalability may not be addressed as extensively during this academic phase.</p>
+  </li>
+  
+  <li>
+    <p><strong>Interaction between Interface and Central Database:</strong> The project's initial phase centers around the interaction between the program's interface and the central database. While this is essential for functionality, it may mean that other critical aspects of a real-world project, such as data security and real-time data synchronization, may not be fully explored during this phase.</p>
+  </li>
+
+  <li>
+    <p><strong>Creation of a Database Copy:</strong> To facilitate software development for the academic project, a copy of the database is being created on a separate computer from the main server. While this practice is common in academic and development settings, it may not be feasible in a production environment due to security and data synchronization considerations.</p>
+  </li>
+</ol>
+
 ## Overall Objective and Specific Objectives:
 
 <p>The general objective of the project is to carry out the implementation of an agile administrative program to replace an outdated administrative system, which is adaptable to the company's needs. The program will utilize SQL to efficiently manage the company's data, featuring an HTML interface that can utilize Java commands for better database management. The project aims to meet an administrative need of the DN company, which is seeking an agile way to enhance its production processes.</p>
