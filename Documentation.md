@@ -18,16 +18,16 @@ This feature was seamlessly integrated into the new software. However, it necess
 To address this challenge in a cost-effective manner, we proposed the implementation of a new project. This project revolves around the creation of a web-based platform serving as an interface for interaction between the laboratories and the administrative department. Consequently, laboratories can access the company's central database via the web, obviating the need for new computer installations.
 
 ## Development Plan.
-<h1>Objectives.</h1>
+### Objectives.
 Our main objective is to create a website that can be accessed by any company or individual to record orders and production.
 
-<h1>Resources.</h1>
+### Resources.
 To achieve our goal, we need the necessary development team, in this case, a team of software engineering undergraduate students. Additionally, we need tools for programming, defining objectives, goals, and a channel for team communication.
 
-<h1>Schedule.</h1>
+### Schedule.
 Project deliveries will be made for review at the end of each month, with the first delivery scheduled for Friday, September 22nd of the current year.
 
-<h1>Responsibilities.</h1>
+### Responsibilities.
 Responsibilities have been assigned for the project as follows:
   Mario Irabien: Team Leader
   Victor Rosado: Front-End Developer
@@ -36,10 +36,10 @@ Responsibilities have been assigned for the project as follows:
   Xavier Dzib: Front-End Developer
 These responsibilities may change as the project progresses.
 
-<h1>Tracking.</h1>
+### Tracking.
 To ensure clear tracking of project development, the project has been divided into three stages: Documentation, Functionality, and Final Design. These stages are followed by daily tasks that have values to quantify the progress and work division.
 
-<h1>Comunication.</h1>
+### Comunication.
 To keep the team well-informed and aligned with the project's development, we have adopted the Scrum development methodology, which includes weekly and daily team reviews, project definitions, discussions, etc. We will also use the GitHub platform to manage the project documentation.
 
 ## Relevance
