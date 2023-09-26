@@ -86,15 +86,15 @@ Also, the level of this project would help us in the future to demostrate to the
 |RF001|Log in|If the program is being opened for the first time or if the user has closed their session, it will prompt for authentication with a profile and password|When opening the application without an active session, the system will display the login interface|
 |RF002|Block log in|If the user doesn't enter the correct password after three attempts for their profile, the system will block the login for five minutes|After the five-minute period expires, the system will reset the three login attempts|
 |RF003|Main interface|The program will allow the worker to review tools and information according to their profile, such as the workshops and production laboratories they belong to|Each profile will have its own workshops based on the section or type of worker|
-|RF004|Orders list|The main interface will allow workers to review their tasks and orders, including the delivery deadline for each product, the quantity of products, and the assignment date of the task||
-|RF005|Manipulate the orders list|||
-|RF006|Orders preview|||
+|RF004|Orders list|The main interface will allow workers to review their tasks and orders, including the delivery deadline for each product, the quantity of products, and the assignment date of the task|It should be designed with a clear and organized interface, and the data visualization should include: delivery deadline, quantity of products, and the date the order was placed; it should also allow for filtering, sorting, and searching.|
+|RF005|Manipulate the orders list||Provide clear and suitable functionalities for users to perform actions such as adding new orders, editing existing order details, deleting orders, or marking orders as completed. Additionally, consider including validation and confirmation controls to prevent accidental or erroneous changes|
+|RF006|Orders preview||This functionality will provide users with a clear and detailed preview of orders before confirming them, including critical information such as delivery dates, product quantities, and customer details.|
 |RF007|Orders window|||
-|RF008|Review tasks|||
-||Access workshop|||
-||Access laboratories|||
-||Complet the tasks|||
-||Denegar subir el trabajo|Si no completo todas las tareas no se puede subir|||
+|RF008|Review tasks||Provide a user-friendly interface for users to effectively review their tasks. This may include summaries of pending tasks, due dates, and task details.|
+||Access workshop||It should be managed appropriately with security controls and user roles to ensure that only authorized individuals can access and use workshop-related functions.|
+||Access laboratories||Similar to workshop access, manage access to laboratories securely with proper permissions. This may include role-based authentication and authorization.|
+||Complet the tasks||Provide a clear way for users to mark tasks as completed and record any relevant task-related information.|
+||Denegar subir el trabajo|Si no completo todas las tareas no se puede subir|If denying the upload of work is required, there should be a robust system in place to review and approve or deny the uploaded content, implementing security measures to prevent unauthorized uploads or downloads.|
 ||Generate report advances||Report generation will be an optional feature of the system||
 
 ## **Non-functional requirements**
