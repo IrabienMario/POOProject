@@ -22,3 +22,12 @@ To ensure clear tracking of project development, the project has been divided in
 
 <h1>Comunication.</h1>
 To keep the team well-informed and aligned with the project's development, we have adopted the Scrum development methodology, which includes weekly and daily team reviews, project definitions, discussions, etc. We will also use the GitHub platform to manage the project documentation.
+
+## Functional requirements.
+|id|requirement name|description|observations|
+|--|----------------|-----------|------------|
+|RF001|Agregar registradores|||
+|RF002|Eliminar registradores|||
+|RF003|Ver lista de registradores|||
+|RF004|Notificaciones de cambios|||
+|RF005|Ver produccion por fecha, nombre, laboratorio, etc.|||
