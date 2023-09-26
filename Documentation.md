@@ -26,8 +26,8 @@ To keep the team well-informed and aligned with the project's development, we ha
 ## Functional requirements.
 |id|requirement name|description|observations|
 |--|----------------|-----------|------------|
-|RF001|Agregar registradores|||
-|RF002|Eliminar registradores|||
-|RF003|Ver lista de registradores|||
-|RF004|Notificaciones de cambios|||
-|RF005|Ver produccion por fecha, nombre, laboratorio, etc.|||
+|RF001|Agregar registradores|Una opcion que permita agregar usuarios para los registradores de productos hechos||
+|RF002|Eliminar registradores|Una opcion que permita eliminar usuarios para los registradores de productos hechos||
+|RF003|Ver lista de registradores|Una opción para ver la lista de registradores de productos hechos||
+|RF004|Notificaciones de cambios|Una barra que muestre los cambios recientes en los productos nuevos, finalizados, laboratorios, comentarios, etc.||
+|RF005|Ver produccion por fecha, nombre, etc.|Una opcion para ver los productos por orden: fecha, nombre, listos, nuevos, no hechos.||
