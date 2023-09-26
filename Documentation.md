@@ -17,6 +17,31 @@ This feature was seamlessly integrated into the new software. However, it necess
 
 To address this challenge in a cost-effective manner, we proposed the implementation of a new project. This project revolves around the creation of a web-based platform serving as an interface for interaction between the laboratories and the administrative department. Consequently, laboratories can access the company's central database via the web, obviating the need for new computer installations.
 
+# Development Plan.
+<h1>Objectives.</h1>
+Our main objective is to create a website that can be accessed by any company or individual to record orders and production.
+
+<h1>Resources.</h1>
+To achieve our goal, we need the necessary development team, in this case, a team of software engineering undergraduate students. Additionally, we need tools for programming, defining objectives, goals, and a channel for team communication.
+
+<h1>Schedule.</h1>
+Project deliveries will be made for review at the end of each month, with the first delivery scheduled for Friday, September 22nd of the current year.
+
+<h1>Responsibilities.</h1>
+Responsibilities have been assigned for the project as follows:
+  Mario Irabien: Team Leader
+  Victor Rosado: Front-End Developer
+  Emiliano Arceo: Back-End Developer
+  Carlos Ek: Back-End Developer
+  Xavier Dzib: Front-End Developer
+These responsibilities may change as the project progresses.
+
+<h1>Tracking.</h1>
+To ensure clear tracking of project development, the project has been divided into three stages: Documentation, Functionality, and Final Design. These stages are followed by daily tasks that have values to quantify the progress and work division.
+
+<h1>Comunication.</h1>
+To keep the team well-informed and aligned with the project's development, we have adopted the Scrum development methodology, which includes weekly and daily team reviews, project definitions, discussions, etc. We will also use the GitHub platform to manage the project documentation.
+
 ## Relevance
 
 The significance of this project is that the problem we are solving is a real necessity in a real company. That's why, besides being a school-related project, all the processes, coding, and documentation done in this project are a depiction of what would happen in a real implementation.
@@ -79,7 +104,6 @@ Also, the level of this project would help us in the future to demostrate to the
 
 ![image](https://github.com/IrabienMario/POOProject/assets/74621218/f7b62a28-7b4a-4feb-bfb7-0fd626c54fe5)
 
-
 ## Functional requirements.
 |id|requirement name|description|observations|
 |--|----------------|-----------|------------|
@@ -91,6 +115,12 @@ Also, the level of this project would help us in the future to demostrate to the
 |RF006|Orders preview|||
 |RF007|Orders window|||
 |RF008|Review tasks|||
+|RF001|Add users|An option to add users to the web||
+|RF002|Delete users|An option to delete users to the web||
+|RF003|Check users list|An option to view the users list||
+|RF004|Check users list by name, new, etc.|An option to view the users list by name, new, oldest||
+|RF005|Changes|A bar that notificates the new changes||
+|RF006|Check produtc by date, name, etc.|An option to view the products by new, oldest, done, not done, name, date||
 ||Access workshop|||
 ||Access laboratories|||
 ||Complet the tasks|||
@@ -107,15 +137,12 @@ Security is defined as the way in which the system is protected with the data it
 | **RNF 2**  | Multiple sessions  | The system must not restrict multiple open sessions in different browsers or workstations.   |
 | **RNF 3** | Maintain login | The system must maintain the user's login in case of any failures in the web servers. |
 
-
-
 _Availability._
 
 The time in which the system is functional and working.
 | Requeriment | Name | Description |
 |--------------|--------------|--------------|
 | **RNF 4** | High availability | The system must be available 99.5% of the time. The fulfillment of this quality scenario depends on the infrastructure and deployment proposal presented.  |
-
 
 _Reliability._
 
