@@ -17,7 +17,7 @@ This feature was seamlessly integrated into the new software. However, it necess
 
 To address this challenge in a cost-effective manner, we proposed the implementation of a new project. This project revolves around the creation of a web-based platform serving as an interface for interaction between the laboratories and the administrative department. Consequently, laboratories can access the company's central database via the web, obviating the need for new computer installations.
 
-# Development Plan.
+## Development Plan.
 <h1>Objectives.</h1>
 Our main objective is to create a website that can be accessed by any company or individual to record orders and production.
 
