@@ -1,28 +1,19 @@
 # Documentation.
 
 ## Table of Contents:
-  ### Introduction.
-
-  ### Overall Objective and Specific Objectives.
-
-  ### Project Scopes.
-
-  ### Limitations.
-
-  ### Relevance.
-
-  ### Functional requirements.
-  #### Use cases.
-  #### User stories.
-
-  ### Non-functional requirements.
-
-  ### Project priorities.
-
-  ### Class Diagrams.
-  #### Usage of classes in the requirements
-
-  ### Development Plan.
+  -Introduction.
+      - Overall Objective and Specific Objectives.
+  - Project Scopes.
+  - Limitations.
+  - Relevance.
+  - Functional requirements.
+      - Use cases.
+      - User stories.
+  - Non-functional requirements.
+  - Project priorities.
+  - Class Diagrams.
+      - Usage of classes in the requirements
+  - Development Plan.
 
 
 ## Introduction.
