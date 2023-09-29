@@ -194,13 +194,14 @@ This implementation of classes and interfaces will enable us to achieve our obje
 
 For a better visualization of requirement fulfillment, the following table displays the relationship between the class and the requirement it satisfies.
 
-| Class | Functional requirement it satisfies  |
-|<p align="center"> <img src="assets/Class1.png"></p>| RNF2, RNF3, RNF5|
-|<p align="center"> <img src="assets/Class2.png"></p>| RF1, RF2, RF9, RNF1|
-|<p align="center"> <img src="assets/Class3.png"></p>| RNF7|
-|<p align="center"> <img src="assets/Class4.png"></p>| RF5, RF7, RF8 |
-|<p align="center"> <img src="assets/Class5.png"></p>| RF3, RF4, RF6, RF9, RF10, RF11|
-|<p align="center"> <img src="assets/Class6.png"></p>| RF3, RF4, RF6, RF9, RF10, RF11|
+| Class                                              | Functional requirement it satisfies  |
+|----------------------------------------------------|-------------------------------------|
+| <p align="center"> <img src="assets/Class1.png"></p> | RNF2, RNF3, RNF5                   |
+| <p align="center"> <img src="assets/Class2.png"></p> | RF1, RF2, RF9, RNF1                 |
+| <p align="center"> <img src="assets/Class3.png"></p> | RNF7                                |
+| <p align="center"> <img src="assets/Class4.png"></p> | RF5, RF7, RF8                       |
+| <p align="center"> <img src="assets/Class5.png"></p> | RF3, RF4, RF6, RF9, RF10, RF11      |
+| <p align="center"> <img src="assets/Class6.png"></p> | RF3, RF4, RF6, RF9, RF10, RF11      |
 
 # Development Plan.
 ## Objectives.
