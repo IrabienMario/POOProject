@@ -7,7 +7,7 @@ This particular project involves the transformation of an outdated accounting sy
 DN specializes in selling a wide range of souvenirs to diverse companies. To facilitate these sales, they must first manufacture the products within their various laboratories, including the carpentry laboratory, sewing laboratory, serigraphy laboratory, and so forth.
 
 <p align="center">
-  <img src="assets/LaboratoryComercialPro.png">
+  <img src="DocumentationAssets/LaboratoryComercialPro.png">
 </p>
 
 
