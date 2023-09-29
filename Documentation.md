@@ -115,12 +115,13 @@ Also, the level of this project would help us in the future to demostrate to the
 |RF006|Orders preview|||
 |RF007|Orders window|||
 |RF008|Review tasks|||
-|RF001|Add users|An option to add users to the web||
-|RF002|Delete users|An option to delete users to the web||
-|RF003|Check users list|An option to view the users list||
-|RF004|Check users list by name, new, etc.|An option to view the users list by name, new, oldest||
-|RF005|Changes|A bar that notificates the new changes||
-|RF006|Check produtc by date, name, etc.|An option to view the products by new, oldest, done, not done, name, date||
+|RF001|Add users|There will be an option for the admins to create users, this users could be the registers or more admins.|Only the admins can create users or admins.|
+|RF002|Delete users|There will be an option to delete users to the web. Only the admins can use this option.|Only admins can delete users, but not admin's users.|
+|RF003|Check users list|Theee will be an option to view the users list, this will be a list with the real name of the users.|This option can be seen for anyone, but the information of the products, products done, new products can be seen only for admins.|
+|RF004|Check users list by name, new, etc.|The users list can be seen by name, new, oldest, users or admins.|This option can be seen by anyone.|
+|RF005|Changes|There will exist a bar of notifications about the new changes.|This bar will be about new products for the users and products done for the admins.|
+|RF006|Check produtc by date, name, etc.|There will be an option to view the products by new, oldest, done, not done, name, date|This kind of list can be seen for anyone.|
+|RF007|Access to laboratorie by|There will be an option to see the laboratories by new, oldest, name, zone.|This option can be seen and work for everyone.|
 ||Access workshop|||
 ||Access laboratories|||
 ||Complet the tasks|||
