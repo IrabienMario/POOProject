@@ -105,6 +105,7 @@ Also, the level of this project would help us in the future to demostrate to the
 ![image](https://github.com/IrabienMario/POOProject/assets/74621218/f7b62a28-7b4a-4feb-bfb7-0fd626c54fe5)
 
 ## Functional requirements.
+
 |id|requirement name|description|observations|
 |--|----------------|-----------|------------|
 |RF001|Log in|If the program is being opened for the first time or if the user has closed their session, it will prompt for authentication with a profile and password|When opening the application without an active session, the system will display the login interface|
@@ -128,6 +129,7 @@ Also, the level of this project would help us in the future to demostrate to the
 ||Generate report advances||Report generation will be an optional feature of the system||
 
 ## **Non-functional requirements**
+
 _Security._
 https://github.com/IrabienMario/POOProject/pull/21
 Security is defined as the way in which the system is protected with the data it contains to prevent loss or data breaches from unauthorized sources.
@@ -164,3 +166,13 @@ The software should be able to adapt to variable situations and support changes 
 | Requeriment | Name | Description |
 |--------------|--------------|--------------|
 | **RNF 7** | Resource configuration| There must be a scheme for managing specific configuration properties of the resources used by the application. For example, the database name. |
+
+## Class Diagrams
+
+For the organization and development of this project, we will divide the necessary functionalities into different classes that aid in the implementation and maintenance of the software. To accomplish this, we will utilize the Java programming language, allowing us to implement the requirements more efficiently.
+
+<p align="center">
+  <img src="assets/DiagramClass.png">
+</p>
+
+This implementation of classes and interfaces will enable us to achieve our objectives and requirements with respect to the software. It is divided in such a way that it allows for the proper functioning of the software, making it easier to maintain, more user-friendly for the programmer, and straightforward to modify.
