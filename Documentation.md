@@ -1,7 +1,7 @@
 # Documentation.
 
 ## Table of Contents:
-  -Introduction.
+  - Introduction.
       - Overall Objective and Specific Objectives.
   - Project Scopes.
   - Limitations.
