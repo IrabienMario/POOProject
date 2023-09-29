@@ -124,7 +124,7 @@ Also, the level of this project would help us in the future to demostrate to the
 |RF012|Generate report advances|The 'Generate Report Advances' feature empowers users to create specific or comprehensive reports about orders and their work progress within their part of the process. These reports can encompass product details and any identified defects during the production process|Report generation will be an optional feature of the system|
 |RF001|Add users|There will be an option for the admins to create users, this users could be the registers or more admins.|Only the admins can create users or admins.|
 |RF003|Check users list|The users would see their name on the web to verify that they are using their account.|This option can be any user.|
-|RF005|Changes|A bar that notificates the new changes||
+|RF005|Changes|A bar that notificates the new changes, like new products, products done, laboratories done, new users, new admins, deleted users, incoming deadlines.|This bar can be seen by anyone, users or admins, this bar can not be eliminated but can be marked for seen or not seen depending on the user or admin.|
 |RF006|Check produtc by date, name, etc.|An option to view the products by new, oldest, done, not done, name, date|This kind of list can be seen for anyone.|
 
 ## **Non-functional requirements**
