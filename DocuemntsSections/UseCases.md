@@ -21,17 +21,17 @@
 ## User stories.
 
 <p align="center">
-  <img src="assets/UserH1.png">
+  <img src="DocumentationAssets/UserH1.png">
 </p>
 
 <p align="center">
-  <img src="assets/UserH2.png">
+  <img src="DocumentationAssets/UserH2.png">
 </p>
 
 <p align="center">
-  <img src="assets/UserH3.png">
+  <img src="DocumentationAssets/UserH3.png">
 </p>
 
 <p align="center">
-  <img src="assets/UserH4.png">
+  <img src="DocumentationAssets/UserH4.png">
 </p>
