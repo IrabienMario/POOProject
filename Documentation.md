@@ -1,6 +1,22 @@
-# Documentation
+# Documentation.
 
-## Introduction
+## Table of Contents:
+  - Introduction.
+      - Overall Objective and Specific Objectives.
+  - Project Scopes.
+  - Limitations.
+  - Relevance.
+  - Functional requirements.
+      - Use cases.
+      - User stories.
+  - Non-functional requirements.
+  - Project priorities.
+  - Class Diagrams.
+      - Usage of classes in the requirements
+  - Development Plan.
+
+
+## Introduction.
 
 To undertake an Object-Oriented Programming Project, several students from the Universidad Autónoma de Yucatán have embarked on a real-world endeavor within a company.
     
@@ -17,62 +33,11 @@ This feature was seamlessly integrated into the new software. However, it necess
 
 To address this challenge in a cost-effective manner, we proposed the implementation of a new project. This project revolves around the creation of a web-based platform serving as an interface for interaction between the laboratories and the administrative department. Consequently, laboratories can access the company's central database via the web, obviating the need for new computer installations.
 
-## Development Plan.
-### Objectives.
-Our main objective is to create a website that can be accessed by any company or individual to record orders and production.
-
-### Resources.
-To achieve our goal, we need the necessary development team, in this case, a team of software engineering undergraduate students. Additionally, we need tools for programming, defining objectives, goals, and a channel for team communication.
-
-### Schedule.
-Project deliveries will be made for review at the end of each month, with the first delivery scheduled for Friday, September 22nd of the current year.
-
-### Responsibilities.
-Responsibilities have been assigned for the project as follows:
-
-  Mario Irabien: Team Leader.
-  Victor Rosado: Front-End Developer.
-  Emiliano Arceo: Back-End Developer.
-  Carlos Ek: Back-End Developer.
-  Xavier Dzib: Front-End Developer.
-  
-These responsibilities may change as the project progresses.
-
-### Tracking.
-To ensure clear tracking of project development, the project has been divided into three stages: Documentation, Functionality, and Final Design. These stages are followed by daily tasks that have values to quantify the progress and work division.
-
-### Comunication.
-To keep the team well-informed and aligned with the project's development, we have adopted the Scrum development methodology, which includes weekly and daily team reviews, project definitions, discussions, etc. We will also use the GitHub platform to manage the project documentation.
-
-## Relevance
-
-The significance of this project is that the problem we are solving is a real necessity in a real company. That's why, besides being a school-related project, all the processes, coding, and documentation done in this project are a depiction of what would happen in a real implementation.
-
-Also, the level of this project would help us in the future to demostrate to the companys how the experencied we have gaind (most related to coding in Java, HTML, SQL, and the process of the development) is used in this deployment. Being able to reach to a level that we could sell this possibility of resolution to the DN company.
-
-## Limitations:
-
-<p>There are several limitations to consider in the context of this project:</p>
-
-<ol>
-  <li>
-    <p><strong>Academic Nature of the Project:</strong> This project is primarily academic in nature. As a result, the initial focus is on functionality. The emphasis is on learning and gaining practical experience, which may not reach the same level of complexity or scale as a commercial project. Additionally, certain aspects such as security or scalability may not be addressed as extensively during this academic phase.</p>
-  </li>
-  
-  <li>
-    <p><strong>Interaction between Interface and Central Database:</strong> The project's initial phase centers around the interaction between the program's interface and the central database. While this is essential for functionality, it may mean that other critical aspects of a real-world project, such as data security and real-time data synchronization, may not be fully explored during this phase.</p>
-  </li>
-
-  <li>
-    <p><strong>Creation of a Database Copy:</strong> To facilitate software development for the academic project, a copy of the database is being created on a separate computer from the main server. While this practice is common in academic and development settings, it may not be feasible in a production environment due to security and data synchronization considerations.</p>
-  </li>
-</ol>
-
-## Overall Objective and Specific Objectives:
+## Overall Objective and Specific Objectives.
 
 <p>The general objective of the project is to carry out the implementation of an agile administrative program to replace an outdated administrative system, which is adaptable to the company's needs. The program will utilize SQL to efficiently manage the company's data, featuring an HTML interface that can utilize Java commands for better database management. The project aims to meet an administrative need of the DN company, which is seeking an agile way to enhance its production processes.</p>
 
-<p>The program aims to use a web-based platform that allows the utilization of the tools provided by the old system but with a more user-friendly interface, eliminating the need to purchase new equipment and licenses. This is intended to enable laboratories to notify the administrative department once the products are ready for delivery.</p>
+<p>The program aims to use a web-based platform that allows the utilization of the tools provided by the old system but with a more user-friendly interface, eliminating the need to purchase new equipment and licenses of the actual software. This is intended to enable laboratories to notify the administrative department once the products are ready for delivery.</p>
 
 <p>The specific objectives of the project are as follows:</p>
 
@@ -83,10 +48,56 @@ Also, the level of this project would help us in the future to demostrate to the
 
   <li><strong>Implement database updates through efficient inserts and updates:</strong> Keep the database current by seamlessly incorporating data updates and inserts, ensuring the accurate representation of company information for informed decision-making.</li>
 
-  <li><strong>Establish efficient communication between the program and the user interface:</strong> Enable effective communication between the software program and the user interface to ensure that user actions are accurately reflected in the system, resulting in a responsive and user-friendly experience.</li>
+  <li><strong>Streamlining of Processes:</strong> The program will streamline the production system of DN company, enabling a more efficient and expedited execution of its processes.</li>
+
+  <li><strong>Adaptability:</strong> The program will adapt to the production systems currently in place at DN company, ensuring a faster implementation process by seamlessly integrating with their existing infrastructure.</li>
 </ol>
 
-## Use cases.
+## Project Scopes.
+
+In this project, the objectives we aim to achieve are the development of a functional web software that will enable the DN company to enhance its production processes for the benefit of the organization. Our ultimate goal is the sale and implementation of this software within the real-world company.
+
+## Limitations.
+
+<p>There are several limitations to consider in the context of this project:</p>
+
+<ol>
+  <li>
+    <p><strong>Academic Nature of the Project:</strong> This project is primarily academic in nature. As a result, the initial focus is on functionality. The emphasis is on learning and gaining practical experience, which may not reach the same level of complexity or scale as a commercial project. Additionally, certain aspects such as security or scalability may not be addressed as extensively during this academic phase.</p>
+  </li>
+  
+  <li>
+    <p><strong>Interaction between Interface and Central Database:</strong> The project's initial phase centers around the interaction between the program's interface and the central database. While this is essential for functionality, it may mean that other critical aspects of a real-world project, such as data security may not be fully explored during this phase.</p>
+  </li>
+
+  <li>
+    <p><strong>Creation of a Database Copy:</strong> To facilitate software development for the academic project, a copy of the database is being created on a separate computer from the main server. While this practice is common in academic and development settings, it may not be feasible in a production environment due to security and data synchronization considerations.</p>
+  </li>
+</ol>
+
+## Relevance.
+
+The significance of this project is that the problem we are solving is a real necessity in a real company. The real company DN is seeking to enhance both its administrative and production processes. To achieve this, the company has been exploring ways to streamline its operations through the implementation of accounting software solutions, aimed at alleviating the current workload challenges the company faces. That's why, besides being a school-related project, all the processes, coding, and documentation done in this project are a depiction of what would happen in a real implementation.
+
+Also, the level of this project would help us in the future to demostrate to the companys how the experencied we have gaind (most related to coding in Java, HTML, SQL, and the process of the development) is used in this deployment. Being able to reach to a level that we could sell this possibility of resolution to the DN company.
+
+## Functional requirements.
+
+|id|requirement name|description|observations|
+|--|----------------|-----------|------------|
+|RF001|Log in|If the program is being opened for the first time or if the user has closed their session, it will prompt for authentication with a profile and password|When opening the application without an active session, the system will display the login interface|
+|RF002|User Verification|Upon entering the program, users will be prompted to enter a predefined username and password stored in the database. Users must provide the correct combination of username and password to access the program.|
+|RF003|Main interface|The program will allow the worker to review tools and information, such as the laboratories they belong too|Each profile will have its own workshops based on the section or type of worker|
+|RF004|Orders list|The main interface will allow workers to review their tasks and orders, including the delivery deadline for each product, the quantity of products, and the assignment date of the task|The main interface should prioritize clarity and user-friendliness to ensure that workers can easily access and comprehend the information related to their tasks and orders. This includes prominently displaying critical details such as the delivery deadlines for each product, product quantities, and task assignment dates. Additionally, it's essential to implement an intuitive navigation system that enables efficient task and order management|
+|RF005|Manipulate the orders list|The system allows users to manipulate the orders list, including adding, updating|The system's ability to manipulate the orders list by allowing users to perform actions such as adding and updating that is a crucial feature for enhancing order management flexibility. It is essential to ensure that these operations are well-documented, easily accessible, and include appropriate validation checks to prevent errors. Furthermore, user permissions and access control should be considered to maintain data integrity and security while interacting with the orders list|
+|RF006|Review tasks|The 'Review Tasks' function allows users to examine and manage tasks associated with orders, including viewing their status, tracking progress, and making updates when necessary|The 'Review Tasks' function is a valuable tool for users to inspect and oversee tasks related to orders. To enhance its effectiveness, it is essential to design this function with a user-friendly interface that allows for intuitive navigation. The ability to view task statuses, track progress, and make updates when necessary is pivotal for efficient task management. Consider implementing clear visual cues, such as status indicators, to provide users with immediate insights into the state of each task. Furthermore, ensuring that the 'Review Tasks' function integrates seamlessly with other system features can streamline overall order and task management|
+|RF007|Complet the tasks|The 'Complete the Tasks' functionality allows users to mark a task as completed, triggering the order to proceed to its next phase in the production process|The 'Complete the Tasks' functionality is a critical component that empowers users to signify task completion, thus advancing the associated order to the subsequent phase of the production process. To ensure seamless workflow management, it's crucial to design this functionality with simplicity and efficiency in mind. Consider incorporating clear and intuitive controls that enable users to mark tasks as completed effortlessly. Furthermore, implementing validation checks to confirm task fulfillment before progression can help maintain order accuracy and integrity within the production process. Additionally, clear notifications or status updates should inform users about the transition of orders to their next phases, providing transparency and clarity in the production workflow|
+|RF008|Generate report advances|The 'Generate Report Advances' feature empowers users to create specific or comprehensive reports about orders and their work progress within their part of the process. These reports can encompass product details and any identified defects during the production process|Report generation will be an optional feature of the system|
+|RF009|Check users list|The users would see their name on the web to verify that they are using their account.|This option can be any user.|
+|RF010|Changes|A bar that notificates the new changes|This option will help the user to see if ther is new orders to produce.|
+|RF011|Check produtc by date, name, etc.|An option to view the products by new, oldest, done, not done, name, date|This kind of list can be seen for anyone.|
+
+### Use cases.
 
 **Actor:** worker
 |Use case name|Description|Validations|
@@ -106,36 +117,33 @@ Also, the level of this project would help us in the future to demostrate to the
 
 ![image](https://github.com/IrabienMario/POOProject/assets/74621218/f7b62a28-7b4a-4feb-bfb7-0fd626c54fe5)
 
-## Functional requirements.
+## User stories.
 
-|id|requirement name|description|observations|
-|--|----------------|-----------|------------|
-|RF001|Log in|If the program is being opened for the first time or if the user has closed their session, it will prompt for authentication with a profile and password|When opening the application without an active session, the system will display the login interface|
-|RF002|Block log in|If the user doesn't enter the correct password after three attempts for their profile, the system will block the login for five minutes|After the five-minute period expires, the system will reset the three login attempts|
-|RF003|Main interface|The program will allow the worker to review tools and information according to their profile, such as the workshops and production laboratories they belong to|Each profile will have its own workshops based on the section or type of worker|
-|RF004|Orders list|The main interface will allow workers to review their tasks and orders, including the delivery deadline for each product, the quantity of products, and the assignment date of the task|The main interface should prioritize clarity and user-friendliness to ensure that workers can easily access and comprehend the information related to their tasks and orders. This includes prominently displaying critical details such as the delivery deadlines for each product, product quantities, and task assignment dates. Additionally, it's essential to implement an intuitive navigation system that enables efficient task and order management|
-|RF005|Manipulate the orders list|The system allows users to manipulate the orders list, including adding, updating, and deleting orders as needed|The system's ability to manipulate the orders list by allowing users to perform actions such as adding, updating, and deleting orders is a crucial feature for enhancing order management flexibility. It is essential to ensure that these operations are well-documented, easily accessible, and include appropriate validation checks to prevent errors. Furthermore, user permissions and access control should be considered to maintain data integrity and security while interacting with the orders list|
-|RF006|Orders preview|The Orders Preview feature provides users with a glimpse of upcoming orders, allowing them to review and prepare for upcoming tasks and deliveries|The "Orders Preview" feature serves as a valuable tool to offer users insights into forthcoming orders, fostering better preparedness for tasks and deliveries. To maximize its utility, it's important to design this feature with an intuitive and informative user interface. This should include clear presentation of order details, such as delivery dates and quantities, as well as effective navigation options to facilitate easy access to relevant information. Additionally, considering customization features that enable users to prioritize or filter orders may enhance the usability of this functionality|
-|RF007|Orders window|The Orders Window is a dedicated page where users can view and access detailed information about each order, including order status, customer details, product specifications, and delivery information|The creation of a dedicated "Orders Window" page is a valuable addition, providing users with a centralized location to access comprehensive details about individual orders. To optimize user experience, it's essential to ensure that the information presented on this page is well-organized and easily navigable. Key elements, such as order status, customer details, product specifications, and delivery information, should be prominently displayed and intuitively accessible. Additionally, consider incorporating search and filtering functionalities to enable users to efficiently locate specific orders within this dedicated page|
-|RF008|Review tasks|The 'Review Tasks' function allows users to examine and manage tasks associated with orders, including viewing their status, tracking progress, and making updates when necessary|The 'Review Tasks' function is a valuable tool for users to inspect and oversee tasks related to orders. To enhance its effectiveness, it is essential to design this function with a user-friendly interface that allows for intuitive navigation. The ability to view task statuses, track progress, and make updates when necessary is pivotal for efficient task management. Consider implementing clear visual cues, such as status indicators, to provide users with immediate insights into the state of each task. Furthermore, ensuring that the 'Review Tasks' function integrates seamlessly with other system features can streamline overall order and task management|
-|RF009|Access workshop|The 'Access Workshop' feature provides users with dedicated workspaces to access and view in-depth details of the order processes and task specifics, facilitating a comprehensive understanding of the workflow|The 'Access Workshop' feature introduces dedicated workspaces that offer users the opportunity to delve into comprehensive details regarding order processes and task specifics. To optimize user engagement and productivity, it's imperative to design these workspaces with an emphasis on user-friendliness and accessibility. This includes providing straightforward navigation to the relevant information and ensuring that the presented details are well-organized. To facilitate a comprehensive understanding of the workflow, consider incorporating features such as visual representations or flowcharts that elucidate the order processes. Additionally, offering customizable views and filtering options can further enhance the usability of the 'Access Workshop' feature|
-|RF010|Complet the tasks|The 'Complete the Tasks' functionality allows users to mark a task as completed, triggering the order to proceed to its next phase in the production process|The 'Complete the Tasks' functionality is a critical component that empowers users to signify task completion, thus advancing the associated order to the subsequent phase of the production process. To ensure seamless workflow management, it's crucial to design this functionality with simplicity and efficiency in mind. Consider incorporating clear and intuitive controls that enable users to mark tasks as completed effortlessly. Furthermore, implementing validation checks to confirm task fulfillment before progression can help maintain order accuracy and integrity within the production process. Additionally, clear notifications or status updates should inform users about the transition of orders to their next phases, providing transparency and clarity in the production workflow|
-|RF011|Deny uploading work|The 'Deny Uploading Work' function restricts the uploading of work or product to the next phase if all tasks in the workshop haven't been completed|The 'Deny Uploading Work' function plays a crucial role in maintaining the integrity of the workflow by preventing the uploading of work or products to the next phase until all tasks in the workshop are completed. To ensure its effectiveness, it's important to implement clear and informative error messages or notifications that clearly convey the reason for the denial. This can help users understand the necessity of completing all tasks before proceeding and prevent inadvertent actions. Additionally, consider incorporating user-friendly prompts or reminders that encourage users to review and finalize any outstanding tasks before attempting to upload work, thus fostering a seamless and organized production process.|
-|RF012|Generate report advances|The 'Generate Report Advances' feature empowers users to create specific or comprehensive reports about orders and their work progress within their part of the process. These reports can encompass product details and any identified defects during the production process|Report generation will be an optional feature of the system|
-|RF001|Add users|There will be an option for the admins to create users, this users could be the registers or more admins.|Only the admins can create users or admins.|
-|RF003|Check users list|The users would see their name on the web to verify that they are using their account.|This option can be any user.|
-|RF005|Changes|A bar that notificates the new changes||
-|RF006|Check produtc by date, name, etc.|An option to view the products by new, oldest, done, not done, name, date|This kind of list can be seen for anyone.|
+<p align="center">
+  <img src="assets/UserH1.png">
+</p>
 
-## **Non-functional requirements**
+<p align="center">
+  <img src="assets/UserH2.png">
+</p>
+
+<p align="center">
+  <img src="assets/UserH3.png">
+</p>
+
+<p align="center">
+  <img src="assets/UserH4.png">
+</p>
+
+## Non-functional requirements.
 
 ### Security
-https://github.com/IrabienMario/POOProject/pull/21
+
 Security is defined as the way in which the system is protected with the data it contains to prevent loss or data breaches from unauthorized sources.
 | Requeriment | Name | Description |
 |--------------|--------------|--------------|
 | **RNF 1** | Authentication | All users will authenticate themselves for system login and usage. They will have a username and password.  |
-| **RNF 2**  | Multiple sessions  | The system must not restrict multiple open sessions in different browsers or workstations.   |
+| **RNF 2**  | Multiple sessions  | The system must not restrict multiple open sessions in different browsers or workstations with the same user.   |
 | **RNF 3** | Maintain login | The system must maintain the user's login in case of any failures in the web servers. |
 
 ### Availability
@@ -166,6 +174,12 @@ The software should be able to adapt to variable situations and support changes 
 |--------------|--------------|--------------|
 | **RNF 7** | Resource configuration| There must be a scheme for managing specific configuration properties of the resources used by the application. For example, the database name. |
 
+## Project priorities.
+
+For a successful program implementation, it is required to have a development schedule, through which the most crucial functions required by the software are evaluated. To achieve this, an administrative meeting was conducted involving developers, company administrators, and the employees who will be using the software upon its development. 
+
+During the meeting, agreements were reached, and it was determined that the most pressing need was communication between the laboratories and the administration. As a result, a high priority will be given to the communication between the laboratory and the database, as well as the communication from the database to the laboratory.
+
 ## Class Diagrams
 
 For the organization and development of this project, we will divide the necessary functionalities into different classes that aid in the implementation and maintenance of the software. To accomplish this, we will utilize the Java programming language, allowing us to implement the requirements more efficiently.
@@ -175,3 +189,48 @@ For the organization and development of this project, we will divide the necessa
 </p>
 
 This implementation of classes and interfaces will enable us to achieve our objectives and requirements with respect to the software. It is divided in such a way that it allows for the proper functioning of the software, making it easier to maintain, more user-friendly for the programmer, and straightforward to modify.
+
+## Usage of classes in the requirements
+
+For a better visualization of requirement fulfillment, the following table displays the relationship between the class and the requirement it satisfies.
+
+| Class                                              | Functional requirement it satisfies  |
+|----------------------------------------------------|-------------------------------------|
+| <p align="center"> <img src="assets/Class1.png"></p> | RNF2, RNF3, RNF5                   |
+| <p align="center"> <img src="assets/Class2.png"></p> | RF1, RF2, RF9, RNF1                 |
+| <p align="center"> <img src="assets/Class3.png"></p> | RNF7                                |
+| <p align="center"> <img src="assets/Class4.png"></p> | RF5, RF7, RF8                       |
+| <p align="center"> <img src="assets/Class5.png"></p> | RF3, RF4, RF6, RF9, RF10, RF11      |
+| <p align="center"> <img src="assets/Class6.png"></p> | RF3, RF4, RF6, RF9, RF10, RF11      |
+
+# Development Plan.
+## Objectives.
+Our main objective is to create a website that can be accessed by any company or individual to record orders and production.
+
+## Resources.
+To achieve our goal, we need the necessary development team, in this case, a team of software engineering undergraduate students. Additionally, we need tools for programming, defining objectives, goals, and a channel for team communication.For the development, we will make use of the technologies provided by GitHub, such as GitHub Desktop, GitKraken, etc. The programming languages we will use are Java for the logic, HTML for the interfaces, and SQL for database management.
+
+## Schedule.
+Project deliveries will be made for review at the end of each month, with the first delivery scheduled for Friday, September 22nd of the current year. For task management, we will follow the Scrum methodology, which includes a meeting every Wednesday at 9 am. During this meeting, we will discuss task assignments and provide a Q&A session to maintain effective work control. Throughout the week, each team member will work on their tasks within their respective branches and submit pull requests once they are completed. The team leader will review the changes made and provide feedback on the pull requests.
+
+## Weightage
+For task division, the project will be broken down into a series of tasks, each of which can be viewed as discussions within Git. Each task will have a score and assigned points. At the end of the project, the points earned by each participant for successfully completing their assigned tasks will be totaled for a fair points distribution.
+
+## Responsibilities.
+Responsibilities have been assigned for the project as follows:
+
+  Mario Irabien: Team Leader.
+  Victor Rosado: Front-End Developer.
+  Emiliano Arceo: Back-End Developer.
+  Carlos Ek: Back-End Developer.
+  Xavier Dzib: Front-End Developer.
+  
+These responsibilities may change as the project progresses.
+
+## Tracking.
+To ensure clear tracking of project development, the project has been divided into three stages: Documentation, Functionality, and Final Design. These stages are followed by daily tasks that have values to quantify the progress and work division.
+
+## Comunication.
+To keep the team well-informed and aligned with the project's development, we have adopted the Scrum development methodology, which includes weekly and daily team reviews, project definitions, discussions, etc. We will also use the GitHub platform to manage the project documentation.
+
+"All of this can be reflected in the project's repository.
