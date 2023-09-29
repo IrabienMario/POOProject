@@ -29,11 +29,13 @@ Project deliveries will be made for review at the end of each month, with the fi
 
 ### Responsibilities.
 Responsibilities have been assigned for the project as follows:
-    Mario Irabien: Team Leader
-    Victor Rosado: Front-End Developer
-    Emiliano Arceo: Back-End Developer
-    Carlos Ek: Back-End Developer
-    Xavier Dzib: Front-End Developer
+
+  Mario Irabien: Team Leader.
+  Victor Rosado: Front-End Developer.
+  Emiliano Arceo: Back-End Developer.
+  Carlos Ek: Back-End Developer.
+  Xavier Dzib: Front-End Developer.
+  
 These responsibilities may change as the project progresses.
 
 ### Tracking.
