@@ -2,9 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.pruebasdepoo;
+package Controler;
+import DB.conexion;
+import Model.*;
 import java.sql.Connection;
 import java.util.List;
+
 import java.util.ArrayList;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -17,7 +20,7 @@ import java.sql.SQLException;
  */
 public class SerigraphyLaboratoryDAO implements ordersDAO{
    
-    Connection cn = conexion.estableceConexion();
+    Connection cn = conexion.Cn;
     
     @Override
     public List<orders> Listarorders(){
@@ -37,7 +40,6 @@ public class SerigraphyLaboratoryDAO implements ordersDAO{
             }
             pstm.close();
         }catch(Exception e){
-            System.err.println(e);
         }
         return lista;
     }
@@ -59,7 +61,7 @@ public class SerigraphyLaboratoryDAO implements ordersDAO{
             pstm.close();
 
         } catch (SQLException e) {
-            System.err.println(e);
+            e.printStackTrace();
         }
     }
 }

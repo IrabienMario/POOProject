@@ -2,24 +2,25 @@
 package com.mycompany.pruebasdepoo;
 
 import java.util.List;
+import java.util.Date;
 
 
 public class PruebasDePOO {
     public static void main(String[] args) {
         
         SerigraphyLaboratoryDAO dao = new SerigraphyLaboratoryDAO();
+        InsertTablesDN insert = new InsertTablesDN();
         
-        dao.update(4,"PD001",0);
+        Date fecha = new Date(104, 2, 10); 
         
-        // Obtener la lista de pedidos
+        insert.InsertNewOrder(0,fecha,"PD002",15,null,null);
+        insert.InsertInTable();
+        insert.InsertInLabs();
+        
         List<orders> listaPedidos = dao.Listarorders();
         
-        // Imprimir los pedidos
         for (orders pedido : listaPedidos) {
-            System.out.println("Pedido: " + pedido.Orders);
-            System.out.println("Producto: " + pedido.Product);
-            System.out.println("Done: " + pedido.Done);
-            System.out.println("----------------");
+            pedido.printOrder();
         }
     }
 }
