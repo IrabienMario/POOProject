@@ -3,8 +3,9 @@ package com.mycompany.tablabasepoo;
 
 import java.awt.Image;
 import java.awt.Toolkit;
+import java.sql.Connection;
+import javax.swing.JOptionPane;
 
-import com.mycompany.tablabasepoo.Update;
 
 public class Login extends javax.swing.JFrame {
 
@@ -13,10 +14,7 @@ public class Login extends javax.swing.JFrame {
         initComponents();
         this.setLocationRelativeTo(null);
     }
-     public Image getIconImage() {
-        Image retValue = Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("imagenes/logohp.png"));
-        return retValue;
-    }
+    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -31,7 +29,6 @@ public class Login extends javax.swing.JFrame {
         jLabelFondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setIconImage(getIconImage());
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -93,7 +90,11 @@ public class Login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        System.exit(0);
+    int confirmacion = JOptionPane.showConfirmDialog(this, "¿Desea cerrar el programa?", "Confirmación", JOptionPane.YES_NO_OPTION);
+    
+    if (confirmacion == JOptionPane.YES_OPTION) {
+        this.dispose(); // Cierra la interfaz actual
+    }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextFieldUserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldUserActionPerformed
@@ -101,23 +102,24 @@ public class Login extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextFieldUserActionPerformed
 
     private void jButtonSesionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSesionActionPerformed
-        // Crea una instancia de la clase Update
-    Update updateWindow = new Update();
+    // Obtener el nombre de usuario ingresado desde el campo de usuario (jTextFieldUser)
+    String usuario = jTextFieldUser.getText();
     
-    // Muestra la ventana de Update
-    updateWindow.setVisible(true);
+    // Obtener la contraseña ingresada por el usuario desde el campo de contraseña (jPassword)
+    String contraseña = new String(jPassword.getPassword()); // Convertir el campo de contraseña en una cadena de caracteres
     
-    // Cierra la ventana actual (Login)
-    this.dispose();
+    // Realizar la validación del usuario y la contraseña
+    if (usuario.equals("POO") && contraseña.equals("1234")) {
+        // Usuario y contraseña válidos, abrir la ventana de Update
+        Update updateWindow = new Update();
+        updateWindow.setVisible(true);
+        this.dispose(); // Cierra la ventana actual (Login)
+    } else {
+        JOptionPane.showMessageDialog(this, "Usuario o contraseña incorrectos. Intente nuevamente.");
+    }
     }//GEN-LAST:event_jButtonSesionActionPerformed
 
     public static void main(String args[]) {
-     
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Login().setVisible(true);
-            }
-        });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
