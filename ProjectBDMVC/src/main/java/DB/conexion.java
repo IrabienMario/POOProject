@@ -8,29 +8,25 @@ import javax.swing.JOptionPane;
 
 public class conexion {
 
-    private static Connection cn = null;
-
-    static String Usuario = "sa";
-    static String Contraseña = "12345678";
-    static String Bd = "proyectoPOO";
-    static String Puerto = "1433";
-
     public static Connection getConexion() {
         return estableceConexion();
     }
+    
+    public static Connection estableceConexion(){
+        Connection con;
+        try{
+            String url = "jdbc:h2:~/pooH2;DB_CLOSE_DELAY=-1";
+            
+            Class.forName("org.h2.Driver");
 
-    public static Connection estableceConexion() {
-        String Cadena = "jdbc:sqlserver://localhost:" + Puerto + ";" + "databaseName=" + Bd + ";integratedSecurity=false;" + "encrypt=false;trustServerCertificate=true";
-
-        try {
-            cn = DriverManager.getConnection(Cadena, Usuario, Contraseña);
-            mostrarMensaje("CONEXION EXITOSA");
-            return cn; // Devuelve la conexión establecida
-        } catch (SQLException e) {
-            mostrarMensajeError("Error al conectar la base de datos:", e);
-            return null; // Devuelve null en caso de error
+            con = DriverManager.getConnection(url, "sa", "12345678");
+            JOptionPane.showMessageDialog(null,"CONEXION EXITOSA");
+            return con;
+        } catch(ClassNotFoundException | SQLException e){
+            e.printStackTrace(); 
+            return null;
         }
-    }
+    }//cierra getConnection()
 
     private static void mostrarMensaje(String mensaje) {
         // Muestra un cuadro de diálogo con el mensaje

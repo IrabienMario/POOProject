@@ -22,7 +22,7 @@ public class SerigraphyLaboratoryDAO implements ordersDAO {
     public List<orders> Listarorders() {
         List<orders> lista = new ArrayList<>();
 
-        try (PreparedStatement pstm = cn.prepareStatement("SELECT * FROM Productos WHERE done = 0");
+        try (PreparedStatement pstm = cn.prepareStatement(querys.getSelectQ(usrCon.getIndicador()));
              ResultSet rs = pstm.executeQuery()) {
 
             while (rs.next()) {
@@ -46,7 +46,7 @@ public class SerigraphyLaboratoryDAO implements ordersDAO {
         try {
             if (cn != null) { // Validar que la conexión no sea nula
                 // Consulta preparada para evitar SQL injection
-                String query = "UPDATE Productos SET done = ? WHERE codigo = ? AND nombre = ?";
+                String query = querys.getUpdateQ(usrCon.getIndicador());
                 try (PreparedStatement pstm = cn.prepareStatement(query)) {
                     // Establecer los valores de los parámetros en la consulta preparada
                     pstm.setInt(1, _newDone);
@@ -62,10 +62,11 @@ public class SerigraphyLaboratoryDAO implements ordersDAO {
         }
     }
     
-    public static void borrar(int id) {
+    public void borrar(int id) {
         try{
+            String query = querys.getDeleteQ(usrCon.getIndicador());
                Connection con = conexion.getConexion();
-               PreparedStatement ps = con.prepareStatement("DELETE FROM Productos WHERE codigo=?");
+               PreparedStatement ps = con.prepareStatement(query);
                ps.setInt(1, id);
                ps.executeUpdate();
                JOptionPane.showMessageDialog(null,"Registro eliminado");
@@ -74,10 +75,11 @@ public class SerigraphyLaboratoryDAO implements ordersDAO {
             }  
     }
     
-    public static void editar(int Order, String Nombre, int Hechos) {
+    public void editar(int Order, String Nombre, int Hechos) {
         try{
+            String query = querys.getUpdateQ(usrCon.getIndicador());
             Connection con = conexion.getConexion();
-            PreparedStatement ps = con.prepareStatement("UPDATE tabla SET nombre=?, encargado=?, orden=?");
+            PreparedStatement ps = con.prepareStatement(query);
             ps.setInt(1, Order);
             ps.setString(2, Nombre);
             ps.setInt(3, Hechos);
@@ -88,10 +90,10 @@ public class SerigraphyLaboratoryDAO implements ordersDAO {
         }    
     }
     
-    public static void cargarDatos(DefaultTableModel modeloTabla){
+    public void cargarDatos(DefaultTableModel modeloTabla){
         try {
             Connection con = conexion.getConexion();
-            PreparedStatement ps = con.prepareStatement("SELECT codigo, nombre, done FROM Productos");
+            PreparedStatement ps = con.prepareStatement(querys.getSelectQ(usrCon.getIndicador()));
             ResultSet rs = ps.executeQuery();
             ResultSetMetaData rsmd = rs.getMetaData();
             int columnas = rsmd.getColumnCount();
@@ -111,20 +113,20 @@ public class SerigraphyLaboratoryDAO implements ordersDAO {
     }
     
     public void limpiarTabla() {
-    try {
-        if (cn != null) {
-            String query = querys.getDeleteQ(usrCon.getIndicador());
-            try (PreparedStatement pstm = cn.prepareStatement(query)) {
-                pstm.executeUpdate();
+        try {
+            if (cn != null) {
+                String query = querys.getDeleteQ(usrCon.getIndicador());
+                try (PreparedStatement pstm = cn.prepareStatement(query)) {
+                    pstm.executeUpdate();
+                }
             }
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
-    } catch (SQLException e) {
-        e.printStackTrace();
     }
-}
     public boolean existeOrdenExcepto(int order, int filaSeleccionada) {
     try {
-        String query = "SELECT COUNT(*) FROM Productos WHERE codigo = ? AND id <> ?";
+        String query = querys.getOrdenQ(usrCon.getIndicador());
         try (PreparedStatement pstm = cn.prepareStatement(query)) {
             pstm.setInt(1, order);
             pstm.setInt(2, filaSeleccionada);

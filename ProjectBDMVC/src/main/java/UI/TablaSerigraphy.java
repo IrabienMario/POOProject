@@ -272,7 +272,7 @@ public class TablaSerigraphy extends javax.swing.JFrame {
         String Nombre = txtProduct.getText();
         int Hechos =Integer.parseInt(txtDone.getText());
         DefaultTableModel modeloTabla = (DefaultTableModel) tblSerigraphy.getModel();
-        PuenteDBV.puenteEditar(Order, Nombre, Hechos);
+        
         actualizarTabla();
     }//GEN-LAST:event_btnModificar2ActionPerformed
     

@@ -2,6 +2,8 @@ UI\Login.class
 UI\TablaSerigraphy.class
 Model\orders.class
 UI\Login$3.class
+DB\UserConnection.class
+DB\Querys.class
 UI\TablaSerigraphy$6.class
 Model\ordersDAO.class
 Controler\LoginManager.class
@@ -14,6 +16,7 @@ UI\TablaSerigraphy$4.class
 UI\TablaSerigraphy$9.class
 UI\TablaSerigraphy$5.class
 UI\Login$4.class
+DB\ResetTablas.class
 UI\TablaSerigraphy$3.class
 UI\Login$2.class
 UI\TablaSerigraphy$7.class
