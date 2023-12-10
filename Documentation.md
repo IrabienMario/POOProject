@@ -221,12 +221,17 @@ For a better visualization of requirement fulfillment, the following table displ
 
 | Class                                              | Functional requirement it satisfies  |
 |----------------------------------------------------|-------------------------------------|
-| <p align="center"> <img src="assets/Class1.png"></p> | RNF2, RNF3, RNF5                   |
-| <p align="center"> <img src="assets/Class2.png"></p> | RF1, RF2, RF9, RNF1                 |
-| <p align="center"> <img src="assets/Class3.png"></p> | RNF7                                |
-| <p align="center"> <img src="assets/Class4.png"></p> | RF5, RF7, RF8                       |
-| <p align="center"> <img src="assets/Class5.png"></p> | RF3, RF4, RF6, RF9, RF10, RF11      |
-| <p align="center"> <img src="assets/Class6.png"></p> | RF3, RF4, RF6, RF9, RF10, RF11      |
+| <p align="center"> <img src="assets/ClassInterfazTBL.png"></p> | RF003, RF004, RF007       |
+| <p align="center"> <img src="assets/ClassLoginManager.png"></p> | RF001, RF002, RF011      |
+| <p align="center"> <img src="assets/ClassOrders.png"></p> |RF004, RF010                    |
+| <p align="center"> <img src="assets/ClassOrdersDAO.png"></p> | RF004                      |
+| <p align="center"> <img src="assets/ClassQuerys.png"></p> | RF005    |
+| <p align="center"> <img src="assets/ClassSQLConnection.png"></p> | RNF2, RNF1    |
+| <p align="center"> <img src="assets/ClassSQLTbl.png"></p> | RNF5    |
+| <p align="center"> <img src="assets/ClassSQLUpdate.png"></p> | RF010    |
+| <p align="center"> <img src="assets/ClassSQLUserLog.png"></p> | RNF1, RNF2, RNF3   |
+| <p align="center"> <img src="assets/ClassUserConection.png"></p> | RF001, RF002, RNF6  |
+| <p align="center"> <img src="assets/ClassSerigraphyDAO.png"></p> |  |
 
 ## Tests
 
