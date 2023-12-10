@@ -13,7 +13,9 @@
   - Project priorities.
   - Class Diagrams.
       - Usage of classes in the requirements
-  - Development Plan.
+      - Methodology used
+  - Tests
+  - User Manual
 
 
 ## Introduction.
@@ -57,14 +59,50 @@ As an objective achieved, laboratories can now send notifications to the adminis
 
 ## Objectives achieved.
 
-## Main features and functionalities.
+- 🆗**Create an HTML-formatted user interface: Develop an intuitive user interface using HTML that allows users to interact with the program effortlessly, minimizing the need for extensive training:** This interface was completed only for one laboratory, the rest were not achieved.
+- ✔️ **Ensure a well-organized class structure with sustainable development features:** Proper organization of classes and features is implemented within the software to improve code quality and maintainability, ensuring the long-term sustainability of the project.
+- ✔️**Implementation of database updates through efficient insertions and updates:** The database is kept up-to-date by seamlessly incorporating data updates and insertions, ensuring accurate representation of company information for informed decision making. In addition, it is presented with a shared cloud with H2
+- ✔️**Process Streamlining:** The program meets the objective of streamlining the production system of the DN company, allowing for more efficient and agile execution of its processes.
+- ✔️**Adaptability:** The program was able to adapt to the production systems with which it was already implemented in the DN company, ensuring a faster implementation process by integrating perfectly with its existing infrastructure.
 
+## Main features and functionalities.
+**1.- Laboratory Management:**
+Creation and maintenance of profiles for each laboratory (carpentry, sewing, screen printing, etc.).
+
+**2.- Centralized Database:**
+- Centralized storage of information about products, inventory, suppliers, and orders.
+- Access for all laboratories and the administrative department.
+
+**3.- Intuitive Web Interface:**
+User-friendly interface design for accessing and updating data from any laboratory or device with an internet connection.
+Support for common browsers (Chrome and Edge).
+
+**4.- Inventory Management:**
+Automated tracking of raw materials and finished product inventory.
+
+**5.- Production Logging:**
+Functionality to log daily production for each laboratory.
+
+**6.- Order Tracking:**
+
+- Real-time tracking of order status, from request to delivery.
+- Notifications for updates on order status.
+
+**7.- Integration with Production Systems:**
+
+- Connection with the production systems of each laboratory for automatic information updates.
+- Establishment of standards for interoperability with existing technologies.
+
+**8.- Scalability:**
+
+- System design to allow expansion and addition of new laboratories in the future.
+- Adoption of scalable technologies to handle company growth.
 
 ## Relevance.
 
-The significance of this project is that the problem we are solving is a real necessity in a real company. The real company DN is seeking to enhance both its administrative and production processes. To achieve this, the company has been exploring ways to streamline its operations through the implementation of accounting software solutions, aimed at alleviating the current workload challenges the company faces. That's why, besides being a school-related project, all the processes, coding, and documentation done in this project are a depiction of what would happen in a real implementation.
+The importance of the project revolves around the problem of efficiency, which is a real need in a real company. The real DN company sought to enhance both its administrative and productive processes. To achieve this, the company has been exploring ways to optimize its operations by implementing accounting software solutions, aimed at alleviating the current workload challenges facing the company. That is why, in addition to being a school-related project, all the processes, coding and documentation carried out in this project were already implemented in the real world.
 
-Also, the level of this project would help us in the future to demostrate to the companys how the experencied we have gaind (most related to coding in Java, HTML, SQL, and the process of the development) is used in this deployment. Being able to reach to a level that we could sell this possibility of resolution to the DN company.
+Additionally, the level of this project helps us in the future to demonstrate to companies how the experience we have acquired (mostly related to Java coding, HTML, SQL and the development process) is used in this implementation.
 
 ## Functional requirements.
 
@@ -172,7 +210,7 @@ During the meeting, agreements were reached, and it was determined that the most
 For the organization and development of this project, we will divide the necessary functionalities into different classes that aid in the implementation and maintenance of the software. To accomplish this, we will utilize the Java programming language, allowing us to implement the requirements more efficiently.
 
 <p align="center">
-  <img src="assets/DiagramClass.png">
+  <img src="assets/DiagramadeClases.png">
 </p>
 
 This implementation of classes and interfaces will enable us to achieve our objectives and requirements with respect to the software. It is divided in such a way that it allows for the proper functioning of the software, making it easier to maintain, more user-friendly for the programmer, and straightforward to modify.
@@ -190,4 +228,6 @@ For a better visualization of requirement fulfillment, the following table displ
 | <p align="center"> <img src="assets/Class5.png"></p> | RF3, RF4, RF6, RF9, RF10, RF11      |
 | <p align="center"> <img src="assets/Class6.png"></p> | RF3, RF4, RF6, RF9, RF10, RF11      |
 
+## Tests
 
+## User Manual
