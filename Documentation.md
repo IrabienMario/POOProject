@@ -1,10 +1,10 @@
-# Documentation.
+# Final documentation.
 
 ## Table of Contents:
   - Introduction.
-      - Overall Objective and Specific Objectives.
-  - Project Scopes.
-  - Limitations.
+  - Overall Objective and Specific Objectives.
+  - Objectives achieved
+  - Main features and functionalities
   - Relevance.
   - Functional requirements.
       - Use cases.
@@ -22,7 +22,7 @@ To undertake an Object-Oriented Programming Project, several students from the U
     
 This particular project involves the transformation of an outdated accounting system into a modern one known as 'Comercial Pro.' This adaptable software leverages SQL to efficiently manage the company's data. For this specific company, which we will refer to as DN, there arose a need for an extension to oversee the various orders received daily.
 
-DN specializes in selling a wide range of souvenirs to diverse companies. To facilitate these sales, they must first manufacture the products within their various laboratories, including the carpentry laboratory, sewing laboratory, serigraphy laboratory, and so forth.
+DN specializes in selling a wide range of souvenirs to diverse companies. To facilitate these sales, they must first manufacture the products within their various laboratories, including the carpentry laboratory, sewing laboratory, serigraphy laboratory, and so forth. Finally, the project has been successfully concluded, resulting in a program that more effectively carries out the company's tasks and its database is also hosted on a server in the cloud. In this way we present the details in the following documentation:
 
 <p align="center">
   <img src="assets/LaboratoryComercialPro.png">
@@ -34,10 +34,12 @@ This feature was seamlessly integrated into the new software. However, it necess
 To address this challenge in a cost-effective manner, we proposed the implementation of a new project. This project revolves around the creation of a web-based platform serving as an interface for interaction between the laboratories and the administrative department. Consequently, laboratories can access the company's central database via the web, obviating the need for new computer installations.
 
 ## Overall Objective and Specific Objectives.
+Throughout the development of the project, no objectives have been modified or added, so we emphasize those proposed from the very start.
+<p>The general objective of the project was to implement an agile administrative program to replace an already obsolete administrative system.
+It turned out to be adaptable to the needs of the company. Using SQL database software to efficiently manage company data, presenting an HTML interface that can use Java commands for better database management. The project finally satisfies an administrative need of the DN company, which required an agile way to enhance its production processes.</p>
 
-<p>The general objective of the project is to carry out the implementation of an agile administrative program to replace an outdated administrative system, which is adaptable to the company's needs. The program will utilize SQL to efficiently manage the company's data, featuring an HTML interface that can utilize Java commands for better database management. The project aims to meet an administrative need of the DN company, which is seeking an agile way to enhance its production processes.</p>
-
-<p>The program aims to use a web-based platform that allows the utilization of the tools provided by the old system but with a more user-friendly interface, eliminating the need to purchase new equipment and licenses of the actual software. This is intended to enable laboratories to notify the administrative department once the products are ready for delivery.</p>
+<p>The program finally uses a web-based platform that allows the use of the tools provided by the previous system but now with a more user-friendly interface, eliminating the need to purchase new equipment and licenses for the current software.
+As an objective achieved, laboratories can now send notifications to the administrative department when the products have been finished and are ready for delivery.</p>
 
 <p>The specific objectives of the project are as follows:</p>
 
@@ -53,27 +55,10 @@ To address this challenge in a cost-effective manner, we proposed the implementa
   <li><strong>Adaptability:</strong> The program will adapt to the production systems currently in place at DN company, ensuring a faster implementation process by seamlessly integrating with their existing infrastructure.</li>
 </ol>
 
-## Project Scopes.
+## Objectives achieved.
 
-In this project, the objectives we aim to achieve are the development of a functional web software that will enable the DN company to enhance its production processes for the benefit of the organization. Our ultimate goal is the sale and implementation of this software within the real-world company.
+## Main features and functionalities.
 
-## Limitations.
-
-<p>There are several limitations to consider in the context of this project:</p>
-
-<ol>
-  <li>
-    <p><strong>Academic Nature of the Project:</strong> This project is primarily academic in nature. As a result, the initial focus is on functionality. The emphasis is on learning and gaining practical experience, which may not reach the same level of complexity or scale as a commercial project. Additionally, certain aspects such as security or scalability may not be addressed as extensively during this academic phase.</p>
-  </li>
-  
-  <li>
-    <p><strong>Interaction between Interface and Central Database:</strong> The project's initial phase centers around the interaction between the program's interface and the central database. While this is essential for functionality, it may mean that other critical aspects of a real-world project, such as data security may not be fully explored during this phase.</p>
-  </li>
-
-  <li>
-    <p><strong>Creation of a Database Copy:</strong> To facilitate software development for the academic project, a copy of the database is being created on a separate computer from the main server. While this practice is common in academic and development settings, it may not be feasible in a production environment due to security and data synchronization considerations.</p>
-  </li>
-</ol>
 
 ## Relevance.
 
@@ -137,42 +122,44 @@ Also, the level of this project would help us in the future to demostrate to the
 
 ## Non-functional requirements.
 
+As part of non-functional requirements, we were able to meet the ones proposed at the beginning of the project.
+
 ### Security
 
 Security is defined as the way in which the system is protected with the data it contains to prevent loss or data breaches from unauthorized sources.
 | Requeriment | Name | Description |
 |--------------|--------------|--------------|
-| **RNF 1** | Authentication | All users will authenticate themselves for system login and usage. They will have a username and password.  |
-| **RNF 2**  | Multiple sessions  | The system must not restrict multiple open sessions in different browsers or workstations with the same user.   |
-| **RNF 3** | Maintain login | The system must maintain the user's login in case of any failures in the web servers. |
+| **RNF 1** | Authentication | All users are authenticated to log in and use the system. There is a username and password. |
+| **RNF 2**  | Multiple sessions  | The system does not restrict multiple sessions opened in the browser or workstation with the same user.   |
+| **RNF 3** | Maintain login | The system maintains the user's login in case of web server failures. |
 
 ### Availability
 
 The time in which the system is functional and working.
 | Requeriment | Name | Description |
 |--------------|--------------|--------------|
-| **RNF 4** | High availability | The system must be available 99.5% of the time. The fulfillment of this quality scenario depends on the infrastructure and deployment proposal presented.  |
+| **RNF 4** | High availability | The system is available when the user likes to use it. This quality scenario is met by the infrastructure and deployment proposal presented.  |
 
 ### Reliability
 
 It refers to the level of confidence that the system offers not to fail in the execution of its function.
 | Requeriment | Name | Description |
 |--------------|--------------|--------------|
-| **RNF 5** | Acceptable data loss | The acceptable data loss must be equal to 0. In the event of communication interruptions between servers and the client, the system does not proceed with the request, and the client must resume the request.  |
+| **RNF 5** |As long as the database is available, data loss does not exist in the system. In case of interruptions in communication between the servers and the client, the system does not continue with the request and the client must resume the request.  |
 
 ### Portability
 
 The system's ability to run on different technological platforms.
 | Requeriment | Name | Description |
 |--------------|--------------|--------------|
-| **RNF 6** | Browser | The web system must be fully compatible with multiple platforms, including desktop computers, tablets, and mobile devices (cellphones), with the goal of providing a consistent and accessible user experience on all these platforms. |
+| **RNF 6** | Browser | The web system is compatible with computers with the goal of providing a consistent and accessible user experience on all these platforms. |
 
 ### Flexibility
 
-The software should be able to adapt to variable situations and support changes in business policies and rules.
+The software can adapt to changing situations and supports changes in business policies and rules.
 | Requeriment | Name | Description |
 |--------------|--------------|--------------|
-| **RNF 7** | Resource configuration| There must be a scheme for managing specific configuration properties of the resources used by the application. For example, the database name. |
+| **RNF 7** |There is a scheme to manage specific configuration properties of the resources used by the application. For example, the name of the database. |
 
 ## Project priorities.
 
@@ -203,34 +190,4 @@ For a better visualization of requirement fulfillment, the following table displ
 | <p align="center"> <img src="assets/Class5.png"></p> | RF3, RF4, RF6, RF9, RF10, RF11      |
 | <p align="center"> <img src="assets/Class6.png"></p> | RF3, RF4, RF6, RF9, RF10, RF11      |
 
-# Development Plan.
-## Objectives.
-Our main objective is to create a website that can be accessed by any company or individual to record orders and production.
 
-## Resources.
-To achieve our goal, we need the necessary development team, in this case, a team of software engineering undergraduate students. Additionally, we need tools for programming, defining objectives, goals, and a channel for team communication.For the development, we will make use of the technologies provided by GitHub, such as GitHub Desktop, GitKraken, etc. The programming languages we will use are Java for the logic, HTML for the interfaces, and SQL for database management.
-
-## Schedule.
-Project deliveries will be made for review at the end of each month, with the first delivery scheduled for Friday, September 22nd of the current year. For task management, we will follow the Scrum methodology, which includes a meeting every Wednesday at 9 am. During this meeting, we will discuss task assignments and provide a Q&A session to maintain effective work control. Throughout the week, each team member will work on their tasks within their respective branches and submit pull requests once they are completed. The team leader will review the changes made and provide feedback on the pull requests.
-
-## Weightage
-For task division, the project will be broken down into a series of tasks, each of which can be viewed as discussions within Git. Each task will have a score and assigned points. At the end of the project, the points earned by each participant for successfully completing their assigned tasks will be totaled for a fair points distribution.
-
-## Responsibilities.
-Responsibilities have been assigned for the project as follows:
-
-  Mario Irabien: Team Leader.
-  Victor Rosado: Front-End Developer.
-  Emiliano Arceo: Back-End Developer.
-  Carlos Ek: Back-End Developer.
-  Xavier Dzib: Front-End Developer.
-  
-These responsibilities may change as the project progresses.
-
-## Tracking.
-To ensure clear tracking of project development, the project has been divided into three stages: Documentation, Functionality, and Final Design. These stages are followed by daily tasks that have values to quantify the progress and work division.
-
-## Comunication.
-To keep the team well-informed and aligned with the project's development, we have adopted the Scrum development methodology, which includes weekly and daily team reviews, project definitions, discussions, etc. We will also use the GitHub platform to manage the project documentation.
-
-"All of this can be reflected in the project's repository.
