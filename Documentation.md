@@ -176,28 +176,28 @@ Security is defined as the way in which the system is protected with the data it
 The time in which the system is functional and working.
 | Requeriment | Name | Description |
 |--------------|--------------|--------------|
-| **RNF 4** | High availability | The system is available when the user likes to use it. This quality scenario is met by the infrastructure and deployment proposal presented.  |
+| **RNF 4** | High availability | The system is available when the user likes to use it. This quality scenario is met by the infrastructure and deployment proposal presented.|
 
 ### Reliability
 
 It refers to the level of confidence that the system offers not to fail in the execution of its function.
 | Requeriment | Name | Description |
 |--------------|--------------|--------------|
-| **RNF 5** |As long as the database is available, data loss does not exist in the system. In case of interruptions in communication between the servers and the client, the system does not continue with the request and the client must resume the request.  |
+| **RNF 5**| Acceptable data loss |As long as the database is available, data loss does not exist in the system. In case of interruptions in communication between the servers and the client, the system does not continue with the request and the client must resume the request.|
 
 ### Portability
 
 The system's ability to run on different technological platforms.
 | Requeriment | Name | Description |
 |--------------|--------------|--------------|
-| **RNF 6** | Browser | The web system is compatible with computers with the goal of providing a consistent and accessible user experience on all these platforms. |
+| **RNF 6** | Browser | The web system is compatible with computers with the goal of providing a consistent and accessible user experience on all these platforms.|
 
 ### Flexibility
 
 The software can adapt to changing situations and supports changes in business policies and rules.
 | Requeriment | Name | Description |
 |--------------|--------------|--------------|
-| **RNF 7** |There is a scheme to manage specific configuration properties of the resources used by the application. For example, the name of the database. |
+| **RNF 7** |Resource configuration |There is a scheme to manage specific configuration properties of the resources used by the application. For example, the name of the database.|
 
 ## Project priorities.
 
