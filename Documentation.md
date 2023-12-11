@@ -211,7 +211,7 @@ This implementation of classes and interfaces will enable us to achieve our obje
 
 For a better visualization of requirement fulfillment, the following table displays the relationship between the class and the requirement it satisfies.
 
-| Class                                              | Functional requirement it satisfies  | Complete |
+| Class                                              | Functional requirement it satisfies  | Done |
 |----------------------------------------------------|-------------------------------------|-------|
 | <p align="center"> <img src="assets/ClassInterfazTBL.png"></p> | RF003, RF004, RF007       | No |
 | <p align="center"> <img src="assets/ClassLoginManager.png"></p> | RF001, RF002, RF011      | Yes |
