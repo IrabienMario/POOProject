@@ -193,9 +193,9 @@ The software can adapt to changing situations and supports changes in business p
 
 ## Project priorities.
 
-For a successful program implementation, it is required to have a development schedule, through which the most crucial functions required by the software are evaluated. To achieve this, an administrative meeting was conducted involving developers, company administrators, and the employees who will be using the software upon its development. 
+For a successful implementation of the program, a development schedule was used, through which the most crucial functions required by the software are evaluated. To achieve this, an administrative meeting was held in which developers, company administrators and employees who will use the software in its development participated.
 
-During the meeting, agreements were reached, and it was determined that the most pressing need was communication between the laboratories and the administration. As a result, a high priority will be given to the communication between the laboratory and the database, as well as the communication from the database to the laboratory.
+During the meeting, agreements were reached and it was determined that the most urgent need was communication between the laboratories and the administration. As a result, priority was given to communication between the laboratory and the database, as well as communication between the database and the laboratory.
 
 ## Class Diagrams
 
