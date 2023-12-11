@@ -73,17 +73,13 @@ Creation and maintenance of profiles for each laboratory (carpentry, sewing, scr
 - Centralized storage of information about products, inventory, suppliers, and orders.
 - Access for all laboratories and the administrative department.
 
-**3.- Intuitive Web Interface:**
-User-friendly interface design for accessing and updating data from any laboratory or device with an internet connection.
-Support for common browsers (Chrome and Edge).
-
-**4.- Inventory Management:**
+**3.- Inventory Management:**
 Automated tracking of raw materials and finished product inventory.
 
-**5.- Production Logging:**
+**4.- Production Logging:**
 Functionality to log daily production for each laboratory.
 
-**6.- Order Tracking:**
+**5.- Order Tracking:**
 
 - Real-time tracking of order status, from request to delivery.
 - Notifications for updates on order status.
