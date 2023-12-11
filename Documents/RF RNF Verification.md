@@ -15,3 +15,4 @@ For a better visualization of requirement fulfillment, the following table displ
 | <p align="center"> <img src="assets/ClassSQLUserLog.png"></p> | RNF1, RNF2, RNF3   |
 | <p align="center"> <img src="assets/ClassUserConection.png"></p> | RF001, RF002, RNF6  |
 | <p align="center"> <img src="assets/ClassSerigraphyDAO.png"></p> |  |
+| <p align="center"> <img src="assets/ClaassPuenteDVB.png"></p> |  |
