@@ -139,10 +139,6 @@ Additionally, the level of this project helps us in the future to demonstrate to
 ## User stories.
 
 <p align="center">
-  <img src="assets/UserH1.png">
-</p>
-
-<p align="center">
   <img src="assets/UserH2.png">
 </p>
 
