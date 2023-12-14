@@ -21,14 +21,8 @@
 
 ## User stories.
 
-<p align="center">
-  <img src="assets/UserH2.png">
-</p>
+[![UserH2.png](https://i.postimg.cc/d1T3MtB0/UserH2.png)](https://postimg.cc/0MPPDvhg)
 
-<p align="center">
-  <img src="assets/UserH3.png">
-</p>
+[![UserH3.png](https://i.postimg.cc/wM8v98fQ/UserH3.png)](https://postimg.cc/r0jc9bLD)
 
-<p align="center">
-  <img src="assets/UserH4.png">
-</p>
+[![UserH4.png](https://i.postimg.cc/FzyKRWw5/UserH4.png)](https://postimg.cc/BPv37gqM)
