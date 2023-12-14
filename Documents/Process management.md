@@ -44,7 +44,8 @@ Emiliano Arceo: Resolution of conflicts related to the database.
 - Carlos Ek: 33%
 - Victor Rosado: 33%
 - Emiliano Arceo: 30%
-Code reviews:
+- 
+### Code reviews:
 
 ### Responsible for the review:
 - Víctor Rosado: Periodic code reviews to ensure the quality and consistency of development.
